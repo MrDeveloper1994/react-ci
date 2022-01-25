@@ -1,5 +1,5 @@
 ﻿build project:
-  image:node:16.13.2
+  image: node:16
   script:
     -npm install
     -npm test
