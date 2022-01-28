@@ -1,4 +1,10 @@
 
+build project:
+image: node:16
+script:
+-npm install
+-npm test
+-npm build  
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
